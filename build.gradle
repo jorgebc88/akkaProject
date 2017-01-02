@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.typesafe.akka', name: 'akka-actor_2.10', version: '2.3.0'
+//    compile 'com.typesafe.akka:akka-actor_2.10:2.3.0'
+    compile 'com.typesafe.akka:akka-camel_2.10:2.3.0'
+//    compile 'com.typesafe.akka:akka-cluster_2.10:2.3.0'
+//    compile 'com.typesafe.akka:akka-contrib_2.10:2.3.0'
+//    compile 'com.typesafe.akka:akka-testkit_2.10:2.3.0'
+    testCompile "junit:junit:4.12"
+}
+
