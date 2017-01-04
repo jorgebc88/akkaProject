@@ -5,7 +5,7 @@ package com.swacorp.service.utils;
  */
 public enum WorkerStatus {
     IDLE("IDLE"),
-    WAITFORWORK("WAITFORWORK"),
+    WAITINGFORWORK("WAITINGFORWORK"),
     WORKING("WORKING");
 
     private final String workerStatus;
